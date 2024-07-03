@@ -1,0 +1,139 @@
+:root{
+
+  /* header */
+  --header-background: #0a804a;
+  --header-color: #fff;
+
+
+  --ae-search-input-background: #fff;
+  --ae-search-input-border: 1px solid transparent;
+  --ae-search-border-radius: 4px;
+  --ae-search-button-background: #fbd947;
+
+  --text-color: #333333;
+    --body-background: #F9F9FB;
+    --text-secondary-color: #8F8F8F;
+    --primary-color: #0a804a;
+    --secondary-color: #fbd947;
+    --price-color: #0a804a;
+    --header-background: #0a804a;
+    --header-color: #ffffff;
+    --subheader-background: #ffffff;
+    --subheader-color: #2f4858;
+    --label-background: #ed3324;
+    --label-color: #ffffff;
+    --footer-bg: #ffffff;
+    --footer-color: #333333;
+    --show-loadmore: none !important;
+    --order-loadmore: -1 !important;
+    --sale-pop-color: #e40303;
+    --buynow-bg: #0a804a;
+    --buynow-text-color: #ffffff;
+    --addcart-bg: #fb2a0b;
+    --addcart-text-color: #ed3324;
+    --cta-color: #ed3324;
+    --coupon-title-color: #fd545b;
+    --coupon-button-color: #fd545b;
+    --col-menu: 3;
+    --border-color: #f1f1f1;
+    --link-color: #2F80ED;
+    --coupon-code-background: #fd545b;
+
+    --mauNenKhungTieuDe: #fff0f0;
+    --mauChuKhungTieuDe: #212b35;
+    --mauNenKhung: #fff0f0;
+    --mauChuDanhSachSanPham: #212b35;
+    --mauIconCheckbox: #ff4d4d;
+    --mauDuongKePhanBiet: #dfe4e8;
+    --mauChuXemThem: #ff4d4d;
+    --mauGiaGocSanPham: #a6aaae;
+    --mauGiaGiamGia: #ff4d4d;
+    --mauNenKhungPhienBanVaSoLuongMua: #fff;
+    --mauChuKhungPhienBanVaSoLuongMua: #596068;
+    --mauNenLabel: #ffe5e5;
+    --mauChuLabel: #ff4d4d;
+    --mauNenKhungDuoiCung: #fff0f0;
+    --mauChuTongTien: #212b35;
+    --mauChuTongGiamGia: #ff4d4d;
+    --mauNenNutThemGioHang: #ff4d4d;
+    --mauChuNutThemGioHang: #ffffff;
+
+
+    --grid-column:1 / span 3;
+}
+
+.list__main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.cart__main{
+  text-decoration: none;
+  color: var(--text-color);
+  display: flex;
+  width: 100%;
+}
+
+.cart__main:hover{
+  text-decoration: underline;
+}
+
+.home-banner-group{
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-left: 50px;
+}
+
+.home-banner-left{
+  overflow: hidden;
+  grid-column: var(--grid-column);
+}
+
+.section-slider{
+  margin-bottom: 5px;
+}
+
+.swiper-container{
+  margin: auto 0;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  padding: 0;
+}
+
+.swiper-container-pointer-events{
+  touch-action: pan-y;
+}
+
+.sub_banner--bottom{
+  flex-direction: row;
+  grid-column: var(--grid-column);
+}
+
+.sub_banner--bottom .banner {
+  flex: 1 1 auto;
+}
+
+.banner {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+a{
+  color: var(--text-color);
+}
+
+.banner img {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,145 @@
+:root{
+
+  /* header */
+  --header-background: #0a804a;
+  --header-color: #fff;
+
+
+  --ae-search-input-background: #fff;
+  --ae-search-input-border: 1px solid transparent;
+  --ae-search-border-radius: 4px;
+  --ae-search-button-background: #fbd947;
+
+  --text-color: #333333;
+    --body-background: #F9F9FB;
+    --text-secondary-color: #8F8F8F;
+    --primary-color: #0a804a;
+    --secondary-color: #fbd947;
+    --price-color: #0a804a;
+    --header-background: #0a804a;
+    --header-color: #ffffff;
+    --subheader-background: #ffffff;
+    --subheader-color: #2f4858;
+    --label-background: #ed3324;
+    --label-color: #ffffff;
+    --footer-bg: #ffffff;
+    --footer-color: #333333;
+    --show-loadmore: none !important;
+    --order-loadmore: -1 !important;
+    --sale-pop-color: #e40303;
+    --buynow-bg: #0a804a;
+    --buynow-text-color: #ffffff;
+    --addcart-bg: #fb2a0b;
+    --addcart-text-color: #ed3324;
+    --cta-color: #ed3324;
+    --coupon-title-color: #fd545b;
+    --coupon-button-color: #fd545b;
+    --col-menu: 3;
+    --border-color: #f1f1f1;
+    --link-color: #2F80ED;
+    --coupon-code-background: #fd545b;
+
+    --mauNenKhungTieuDe: #fff0f0;
+    --mauChuKhungTieuDe: #212b35;
+    --mauNenKhung: #fff0f0;
+    --mauChuDanhSachSanPham: #212b35;
+    --mauIconCheckbox: #ff4d4d;
+    --mauDuongKePhanBiet: #dfe4e8;
+    --mauChuXemThem: #ff4d4d;
+    --mauGiaGocSanPham: #a6aaae;
+    --mauGiaGiamGia: #ff4d4d;
+    --mauNenKhungPhienBanVaSoLuongMua: #fff;
+    --mauChuKhungPhienBanVaSoLuongMua: #596068;
+    --mauNenLabel: #ffe5e5;
+    --mauChuLabel: #ff4d4d;
+    --mauNenKhungDuoiCung: #fff0f0;
+    --mauChuTongTien: #212b35;
+    --mauChuTongGiamGia: #ff4d4d;
+    --mauNenNutThemGioHang: #ff4d4d;
+    --mauChuNutThemGioHang: #ffffff;
+}
+
+.mid-header{
+  background: var(--header-background);
+  color: var(--header-color);
+  padding: 10px 0;
+}
+
+.header-left{
+    
+}
+
+#search-header{
+  
+}
+
+.ae-search-group{
+  position: relative;
+
+}
+
+.ae-search-group .ae-search-group__input{
+  border-radius: var(--ae-search-border-radius);
+  background-color: var(--ae-search-input-background);
+  border: var(--ae-search-input-border);
+  outline: none;
+  padding: 6px 64px 6px 12px;
+  width: 100%;
+}
+
+
+
+.ae-search-group__button{
+  width: 60px;
+  text-align: center;
+  vertical-align: middle;
+  border-top-right-radius: var(--ae-search-border-radius);
+  border-bottom-right-radius: var(--ae-search-border-radius);
+  background-color: var(--ae-search-button-background);
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+
+#search-header .search-dropdow .search__list{
+display: block !important;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#search-header .search-dropdow .search__list > li{
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.search__list a{
+  font-size: 12px;
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.search__list a:hover{
+  text-decoration: underline;
+}
+
+.header-right{
+  font-size: 14px;
+  justify-content: end;
+}
+
+.header-right a{
+  color: var(--header-color);
+  text-decoration: none;
+}
+
+.header-right a:hover{
+  color: var(--secondary-color);
+}
+
+.mini-cart{
+  position: relative;
+}
+

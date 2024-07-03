@@ -1,0 +1,88 @@
+:root {
+
+  --swiper-theme-color: #007aff;
+
+  --mauNenKhungTieuDe: #fff0f0;
+    --mauChuKhungTieuDe: #212b35;
+    --mauNenKhung: #fff0f0;
+    --mauChuDanhSachSanPham: #212b35;
+    --mauIconCheckbox: #ff4d4d;
+    --mauDuongKePhanBiet: #dfe4e8;
+    --mauChuXemThem: #ff4d4d;
+    --mauGiaGocSanPham: #a6aaae;
+    --mauGiaGiamGia: #ff4d4d;
+    --mauNenKhungPhienBanVaSoLuongMua: #fff;
+    --mauChuKhungPhienBanVaSoLuongMua: #596068;
+    --mauNenLabel: #ffe5e5;
+    --mauChuLabel: #ff4d4d;
+    --mauNenKhungDuoiCung: #fff0f0;
+    --mauChuTongTien: #212b35;
+    --mauChuTongGiamGia: #ff4d4d;
+    --mauNenNutThemGioHang: #ff4d4d;
+    --mauChuNutThemGioHang: #ffffff;
+
+  --text-color: #333333;
+    --body-background: #F9F9FB;
+    --text-secondary-color: #8F8F8F;
+    --primary-color: #0a804a;
+    --secondary-color: #fbd947;
+    --price-color: #0a804a;
+    --header-background: #0a804a;
+    --header-color: #ffffff;
+    --subheader-background: #ffffff;
+    --subheader-color: #2f4858;
+    --label-background: #ed3324;
+    --label-color: #ffffff;
+    --footer-bg: #ffffff;
+    --footer-color: #333333;
+    --show-loadmore: none !important;
+    --order-loadmore: -1 !important;
+    --sale-pop-color: #e40303;
+    --buynow-bg: #0a804a;
+    --buynow-text-color: #ffffff;
+    --addcart-bg: #fb2a0b;
+    --addcart-text-color: #ed3324;
+    --cta-color: #ed3324;
+    --coupon-title-color: #fd545b;
+    --coupon-button-color: #fd545b;
+    --col-menu: 3;
+    --border-color: #f1f1f1;
+    --link-color: #2F80ED;
+    --coupon-code-background: #fd545b;
+}
+
+.subheader{
+  background: #393a44;
+  --subheader-padding: 0px;
+  color: #393a44;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.shop-policises{
+  justify-content: flex-start;
+}
+
+.shop-policises li{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  padding: 12px 0;
+}
+
+.shop-policises li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.shop-policises li a:hover{
+  text-decoration: underline;
+}
+
+@media(min-width: 992px){
+  .container{
+    max-width: 960px;
+  }
+}
